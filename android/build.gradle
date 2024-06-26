@@ -25,6 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "dev.erolkaftanoglu.qr_code_scanner"
+
+    
     compileSdk 33
 
     sourceSets {
